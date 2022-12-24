@@ -1,4 +1,4 @@
-game.Workspace.Baseplate:Destroy(); game:GetService("HttpService").HttpEnabled = true; loadstring(game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/cinarkagan/roserver/main/map.lua"))();
+game.Workspace.Baseplate:Destroy(); loadstring(game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/cinarkagan/roserver/main/map.lua"))();
 
 --[[
 README
